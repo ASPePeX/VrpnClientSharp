@@ -15,7 +15,6 @@ namespace VrpnClientLib {
 	{
 	public:
 		VrpnClientController();
-		void mainloop();
 		int AddAnalog(System::String^ name);
 		int AddButton(System::String^ name);
 		int AddTracker(System::String^ name);

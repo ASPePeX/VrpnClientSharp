@@ -25,6 +25,7 @@ void VrpnClientAnalogCallback::SetData(double a1, double a2)
 
 double* VrpnClientAnalogCallback::GetData()
 {
+	remote->mainloop();
 	return data;
 }
 

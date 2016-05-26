@@ -25,6 +25,7 @@ void VrpnClientButtonCallback::SetData(int b1, int b2)
 
 int* VrpnClientButtonCallback::GetData()
 {
+	remote->mainloop();
 	return data;
 }
 

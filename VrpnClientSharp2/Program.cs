@@ -19,11 +19,9 @@ namespace VrpnClientSharp2
 
             while (true)
             {
-                client.mainloop();
                 blub1 = client.GetAnalogData(idx1);
                 blub2 = client.GetAnalogData(idx2);
                 blub3 = client.GetAnalogData(idx3);
-
                 Console.Clear();
 
                 Console.WriteLine("Mouse Axis 1     : " + blub1[0] + " " + blub1[1]);

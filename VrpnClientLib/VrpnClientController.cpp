@@ -9,21 +9,6 @@ VrpnClientController::VrpnClientController() {
 
 }
 
-void VrpnClientController::mainloop() {
-	for (VrpnClientAnalogCallback n : *vrpnAnalogList)
-	{
-		n.remote->mainloop();
-	}
-	for (VrpnClientButtonCallback n : *vrpnButtonList)
-	{
-		n.remote->mainloop();
-	}
-	for (VrpnClientTrackerCallback n : *vrpnTrackerList)
-	{
-		n.remote->mainloop();
-	}
-}
-
 int VrpnClientController::AddAnalog(System::String^ name)
 {
 	const char* cname = (const char*)(System::Runtime::InteropServices::Marshal::StringToHGlobalAnsi(name)).ToPointer();

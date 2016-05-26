@@ -35,6 +35,7 @@ void VrpnClientTrackerCallback::SetData(double p1, double p2, double p3, double 
 
 double* VrpnClientTrackerCallback::GetData()
 {
+	remote->mainloop();
 	return data;
 }
 
