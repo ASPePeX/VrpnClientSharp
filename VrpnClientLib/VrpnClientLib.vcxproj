@@ -14,7 +14,7 @@
     <ProjectGuid>{99CD05E9-526B-4890-B88A-0EB40131C5CE}</ProjectGuid>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <Keyword>ManagedCProj</Keyword>
-    <RootNamespace>VrpnClientLib2</RootNamespace>
+    <RootNamespace>VrpnClientLib</RootNamespace>
     <ProjectName>VrpnClientLib</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
